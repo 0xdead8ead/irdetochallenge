@@ -10,7 +10,7 @@ irdetoexample.c - test cases
 
 	Usage: ./commentStripper.bin [-i <inputFile>] [-o <outputFile>]
 	-i: input file name
-	-i: ouput file name
+	-o: ouput file name
 
 ##Compiling##
 
