@@ -10,7 +10,7 @@
 #include <stdlib.h>
 
 // Defined Constants
-#define MIN_REQUIRED 2
+#define MIN_REQUIRED 3
 
 
 
@@ -273,7 +273,7 @@ char * stripComments(char * inputString){
 int main(int argc, char *argv[]){
 
 	/* input / output file defaults */
-	char * inputFilename = "iredetoexample.c";
+	char * inputFilename = "irdetoexample.c";
 	char * outputFilename = "irdetoexample-clean.c";
 
 	/* Parse arguments, passing references to input / output file */
