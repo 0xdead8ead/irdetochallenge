@@ -18,8 +18,8 @@
 int help(char *argv[]) {
 	printf("Usage: %s [-i <inputFile>] [-o <outputFile>]\n", argv[0]);
 	printf("\t-i: input file name\n");
-	printf("\t-i: ouput file name\n");
-	return 1;
+	printf("\t-o: ouput file name\n");
+	exit(1);
 }
 
 /* Check / Parse Arguments */
@@ -273,8 +273,8 @@ char * stripComments(char * inputString){
 int main(int argc, char *argv[]){
 
 	/* input / output file defaults */
-	char * inputFilename = "cfile.c";
-	char * outputFilename = "output.c";
+	char * inputFilename = "iredetoexample.c";
+	char * outputFilename = "irdetoexample-clean.c";
 
 	/* Parse arguments, passing references to input / output file */
 	parseArgs(argc, argv, &inputFilename, &outputFilename);
