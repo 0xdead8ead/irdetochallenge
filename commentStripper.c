@@ -18,7 +18,8 @@
 int help(char *argv[]) {
 	printf("Usage: %s [-i <inputFile>] [-o <outputFile>]\n", argv[0]);
 	printf("\t-i: input file name\n");
-	printf("\t-o: ouput file name\n");
+	printf("\t-o: ouput file name\n\n");
+	printf("\tExample: %s -i commentStripper.c -o commentStripper-clean.c\n\n", argv[0]);
 	exit(1);
 }
 
